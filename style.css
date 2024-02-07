@@ -32,8 +32,6 @@ body {
     max-width: 1200px;
 
     background-color: var(--shamrock-50);
-
-    border: 2px green solid;   
 }
 
 img {
@@ -67,6 +65,7 @@ h2 {
 /*#region Top-Level Containers*/
 
 .about-me-container,
+.my-work-container,
 .contact-container {
     padding: 20px;  
 }
