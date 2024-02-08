@@ -95,6 +95,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 
     margin-bottom: 20px;
 }
@@ -208,4 +209,11 @@ h2 {
     background-color: var(--shamrock-700);
 }
 
+.name {
+    position: relative;
+    color: white;
+    left: 50px;
+    bottom: 35px;
+    font-size: 1.75rem;
+}
 /*#endregion*/
