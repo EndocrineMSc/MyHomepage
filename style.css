@@ -95,7 +95,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 
     margin-bottom: 20px;
 }
@@ -148,6 +148,23 @@ h2 {
     display: flex;
     flex-wrap: nowrap;
     gap: 10px;
+}
+
+.portrait-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    background-image: url("./img/portrait.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 330px;
+    width: 290px;
+
+    align-self: center;
 }
 
 /*#endregion*/
@@ -211,9 +228,8 @@ h2 {
 
 .name {
     position: relative;
+    bottom: 20px;
     color: white;
-    left: 50px;
-    bottom: 35px;
     font-size: 1.75rem;
 }
 /*#endregion*/
